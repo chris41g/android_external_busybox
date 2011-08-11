@@ -21,7 +21,11 @@ static const char *const bbconfig_config =
 "CONFIG_SHOW_USAGE=y\n"
 "CONFIG_FEATURE_VERBOSE_USAGE=y\n"
 "CONFIG_FEATURE_COMPRESS_USAGE=y\n"
+<<<<<<< HEAD
 "# CONFIG_FEATURE_INSTALLER is not set\n"
+=======
+"CONFIG_FEATURE_INSTALLER=y\n"
+>>>>>>> 94059c8bc8503a3f264cdee1e48ade978131cbda
 "# CONFIG_LOCALE_SUPPORT is not set\n"
 "CONFIG_FEATURE_ASSUME_UNICODE=y\n"
 "# CONFIG_FEATURE_CHECK_UNICODE_IN_ENV is not set\n"
@@ -270,6 +274,7 @@ static const char *const bbconfig_config =
 "CONFIG_DIFF=y\n"
 "CONFIG_FEATURE_DIFF_LONG_OPTIONS=y\n"
 "CONFIG_FEATURE_DIFF_DIR=y\n"
+<<<<<<< HEAD
 "# CONFIG_ED is not set\n"
 "CONFIG_PATCH=y\n"
 "CONFIG_SED=y\n"
@@ -285,6 +290,23 @@ static const char *const bbconfig_config =
 "# CONFIG_FEATURE_VI_SETOPTS is not set\n"
 "# CONFIG_FEATURE_VI_SET is not set\n"
 "# CONFIG_FEATURE_VI_WIN_RESIZE is not set\n"
+=======
+"CONFIG_ED=y\n"
+"CONFIG_PATCH=y\n"
+"CONFIG_SED=y\n"
+"CONFIG_VI=y\n"
+"CONFIG_FEATURE_VI_MAX_LEN=256\n"
+"CONFIG_FEATURE_VI_8BIT=y\n"
+"CONFIG_FEATURE_VI_COLON=y\n"
+"CONFIG_FEATURE_VI_YANKMARK=y\n"
+"CONFIG_FEATURE_VI_SEARCH=y\n"
+"CONFIG_FEATURE_VI_USE_SIGNALS=y\n"
+"CONFIG_FEATURE_VI_DOT_CMD=y\n"
+"CONFIG_FEATURE_VI_READONLY=y\n"
+"CONFIG_FEATURE_VI_SETOPTS=y\n"
+"CONFIG_FEATURE_VI_SET=y\n"
+"CONFIG_FEATURE_VI_WIN_RESIZE=y\n"
+>>>>>>> 94059c8bc8503a3f264cdee1e48ade978131cbda
 "# CONFIG_FEATURE_VI_OPTIMIZE_CURSOR is not set\n"
 "CONFIG_FEATURE_ALLOW_EXEC=y\n"
 "CONFIG_FIND=y\n"
@@ -560,12 +582,21 @@ static const char *const bbconfig_config =
 "# CONFIG_FEATURE_UNIX_LOCAL is not set\n"
 "# CONFIG_FEATURE_PREFER_IPV4_ADDRESS is not set\n"
 "# CONFIG_VERBOSE_RESOLUTION_ERRORS is not set\n"
+<<<<<<< HEAD
 "# CONFIG_ARP is not set\n"
 "# CONFIG_ARPING is not set\n"
 "# CONFIG_BRCTL is not set\n"
 "# CONFIG_FEATURE_BRCTL_FANCY is not set\n"
 "# CONFIG_FEATURE_BRCTL_SHOW is not set\n"
 "# CONFIG_DNSD is not set\n"
+=======
+"CONFIG_ARP=y\n"
+"# CONFIG_ARPING is not set\n"
+"CONFIG_BRCTL=y\n"
+"CONFIG_FEATURE_BRCTL_FANCY=y\n"
+"CONFIG_FEATURE_BRCTL_SHOW=y\n"
+"CONFIG_DNSD=y\n"
+>>>>>>> 94059c8bc8503a3f264cdee1e48ade978131cbda
 "# CONFIG_ETHER_WAKE is not set\n"
 "# CONFIG_FAKEIDENTD is not set\n"
 "# CONFIG_FTPD is not set\n"
@@ -587,8 +618,13 @@ static const char *const bbconfig_config =
 "# CONFIG_FEATURE_HTTPD_ENCODE_URL_STR is not set\n"
 "# CONFIG_FEATURE_HTTPD_ERROR_PAGES is not set\n"
 "# CONFIG_FEATURE_HTTPD_PROXY is not set\n"
+<<<<<<< HEAD
 "# CONFIG_IFCONFIG is not set\n"
 "# CONFIG_FEATURE_IFCONFIG_STATUS is not set\n"
+=======
+"CONFIG_IFCONFIG=y\n"
+"CONFIG_FEATURE_IFCONFIG_STATUS=y\n"
+>>>>>>> 94059c8bc8503a3f264cdee1e48ade978131cbda
 "# CONFIG_FEATURE_IFCONFIG_SLIP is not set\n"
 "# CONFIG_FEATURE_IFCONFIG_MEMSTART_IOADDR_IRQ is not set\n"
 "# CONFIG_FEATURE_IFCONFIG_HW is not set\n"
@@ -611,12 +647,21 @@ static const char *const bbconfig_config =
 "# CONFIG_FEATURE_INETD_SUPPORT_BUILTIN_DAYTIME is not set\n"
 "# CONFIG_FEATURE_INETD_SUPPORT_BUILTIN_CHARGEN is not set\n"
 "# CONFIG_FEATURE_INETD_RPC is not set\n"
+<<<<<<< HEAD
 "# CONFIG_IP is not set\n"
 "# CONFIG_FEATURE_IP_ADDRESS is not set\n"
 "# CONFIG_FEATURE_IP_LINK is not set\n"
 "# CONFIG_FEATURE_IP_ROUTE is not set\n"
 "# CONFIG_FEATURE_IP_TUNNEL is not set\n"
 "# CONFIG_FEATURE_IP_RULE is not set\n"
+=======
+"CONFIG_IP=y\n"
+"CONFIG_FEATURE_IP_ADDRESS=y\n"
+"CONFIG_FEATURE_IP_LINK=y\n"
+"CONFIG_FEATURE_IP_ROUTE=y\n"
+"# CONFIG_FEATURE_IP_TUNNEL is not set\n"
+"CONFIG_FEATURE_IP_RULE=y\n"
+>>>>>>> 94059c8bc8503a3f264cdee1e48ade978131cbda
 "# CONFIG_FEATURE_IP_SHORT_FORMS is not set\n"
 "# CONFIG_FEATURE_IP_RARE_PROTOCOLS is not set\n"
 "# CONFIG_IPADDR is not set\n"
@@ -629,6 +674,7 @@ static const char *const bbconfig_config =
 "# CONFIG_FEATURE_IPCALC_LONG_OPTIONS is not set\n"
 "# CONFIG_NAMEIF is not set\n"
 "# CONFIG_FEATURE_NAMEIF_EXTENDED is not set\n"
+<<<<<<< HEAD
 "# CONFIG_NC is not set\n"
 "# CONFIG_NC_SERVER is not set\n"
 "# CONFIG_NC_EXTRA is not set\n"
@@ -646,10 +692,30 @@ static const char *const bbconfig_config =
 "# CONFIG_SLATTACH is not set\n"
 "# CONFIG_TELNET is not set\n"
 "# CONFIG_FEATURE_TELNET_TTYPE is not set\n"
+=======
+"CONFIG_NC=y\n"
+"CONFIG_NC_SERVER=y\n"
+"# CONFIG_NC_EXTRA is not set\n"
+"CONFIG_NETSTAT=y\n"
+"# CONFIG_FEATURE_NETSTAT_WIDE is not set\n"
+"CONFIG_FEATURE_NETSTAT_PRG=y\n"
+"CONFIG_NSLOOKUP=y\n"
+"CONFIG_NTPD=y\n"
+"# CONFIG_FEATURE_NTPD_SERVER is not set\n"
+"CONFIG_PING=y\n"
+"# CONFIG_PING6 is not set\n"
+"CONFIG_FEATURE_FANCY_PING=y\n"
+"# CONFIG_PSCAN is not set\n"
+"CONFIG_ROUTE=y\n"
+"# CONFIG_SLATTACH is not set\n"
+"CONFIG_TELNET=y\n"
+"CONFIG_FEATURE_TELNET_TTYPE=y\n"
+>>>>>>> 94059c8bc8503a3f264cdee1e48ade978131cbda
 "# CONFIG_FEATURE_TELNET_AUTOLOGIN is not set\n"
 "# CONFIG_TELNETD is not set\n"
 "# CONFIG_FEATURE_TELNETD_STANDALONE is not set\n"
 "# CONFIG_FEATURE_TELNETD_INETD_WAIT is not set\n"
+<<<<<<< HEAD
 "# CONFIG_TFTP is not set\n"
 "# CONFIG_TFTPD is not set\n"
 "# CONFIG_FEATURE_TFTP_GET is not set\n"
@@ -658,6 +724,16 @@ static const char *const bbconfig_config =
 "# CONFIG_FEATURE_TFTP_PROGRESS_BAR is not set\n"
 "# CONFIG_TFTP_DEBUG is not set\n"
 "# CONFIG_TRACEROUTE is not set\n"
+=======
+"CONFIG_TFTP=y\n"
+"# CONFIG_TFTPD is not set\n"
+"CONFIG_FEATURE_TFTP_GET=y\n"
+"CONFIG_FEATURE_TFTP_PUT=y\n"
+"# CONFIG_FEATURE_TFTP_BLOCKSIZE is not set\n"
+"# CONFIG_FEATURE_TFTP_PROGRESS_BAR is not set\n"
+"# CONFIG_TFTP_DEBUG is not set\n"
+"CONFIG_TRACEROUTE=y\n"
+>>>>>>> 94059c8bc8503a3f264cdee1e48ade978131cbda
 "# CONFIG_TRACEROUTE6 is not set\n"
 "# CONFIG_FEATURE_TRACEROUTE_VERBOSE is not set\n"
 "# CONFIG_FEATURE_TRACEROUTE_SOURCE_ROUTE is not set\n"
@@ -676,10 +752,17 @@ static const char *const bbconfig_config =
 "CONFIG_UDHCPC_SLACK_FOR_BUGGY_SERVERS=0\n"
 "CONFIG_IFUPDOWN_UDHCPC_CMD_OPTIONS=\"\"\n"
 "# CONFIG_VCONFIG is not set\n"
+<<<<<<< HEAD
 "# CONFIG_WGET is not set\n"
 "# CONFIG_FEATURE_WGET_STATUSBAR is not set\n"
 "# CONFIG_FEATURE_WGET_AUTHENTICATION is not set\n"
 "# CONFIG_FEATURE_WGET_LONG_OPTIONS is not set\n"
+=======
+"CONFIG_WGET=y\n"
+"CONFIG_FEATURE_WGET_STATUSBAR=y\n"
+"CONFIG_FEATURE_WGET_AUTHENTICATION=y\n"
+"CONFIG_FEATURE_WGET_LONG_OPTIONS=y\n"
+>>>>>>> 94059c8bc8503a3f264cdee1e48ade978131cbda
 "# CONFIG_ZCIP is not set\n"
 "# CONFIG_TCPSVD is not set\n"
 "# CONFIG_TUNCTL is not set\n"
@@ -756,7 +839,11 @@ static const char *const bbconfig_config =
 "CONFIG_ASH_BASH_COMPAT=y\n"
 "CONFIG_ASH_JOB_CONTROL=y\n"
 "CONFIG_ASH_ALIAS=y\n"
+<<<<<<< HEAD
 "CONFIG_ASH_GETOPTS=y\n"
+=======
+"# CONFIG_ASH_GETOPTS is not set\n"
+>>>>>>> 94059c8bc8503a3f264cdee1e48ade978131cbda
 "CONFIG_ASH_BUILTIN_ECHO=y\n"
 "CONFIG_ASH_BUILTIN_PRINTF=y\n"
 "CONFIG_ASH_BUILTIN_TEST=y\n"

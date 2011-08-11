@@ -7,6 +7,10 @@
 int bbconfig_main(int argc, char **argv) MAIN_EXTERNALLY_VISIBLE;
 int bbconfig_main(int argc UNUSED_PARAM, char **argv UNUSED_PARAM)
 {
+<<<<<<< HEAD
 	printf("%s",bbconfig_config);
+=======
+	printf(bbconfig_config);
+>>>>>>> 94059c8bc8503a3f264cdee1e48ade978131cbda
 	return 0;
 }
